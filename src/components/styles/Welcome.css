@@ -1,18 +1,17 @@
 .container {
-	position: fixed;
-	/* z-index: 4; */
-	width: 100%;
-	height: 100%;
-	padding: 70px;
-	background: black;
+	background-color: black;
+	height: 100vmin;
+	justify-content: center;
+	text-align: center;
 }
-
 .title {
+	margin: 0px;
 	color: white;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	text-align: center;
+	padding-top: 7%;
 	font-size: 50px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
-
 .input-name {
 	border-radius: 5px;
 	border: 1px solid gray;
@@ -21,10 +20,7 @@
 	height: 25px;
 	margin-right: 10px;
 	text-align: center;
-	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-	font-size: 15px; */
 }
-
 .button-save {
 	color: white;
 	font-weight: bold;
@@ -33,14 +29,18 @@
 	border: 0;
 	width: 70px;
 	height: 30px;
-	
 }
 
-	input:hover {
-		color: #84b62e;
-		background-color: white;
-	}
+img {
+	height: 50%;
+	width: 50%;
+	margin: 3%;
+}
 
-	input:focus {
-		outline: none;
-	}
+input:hover {
+	color: #84b62e;
+	background-color: white;
+}
+input:focus {
+	outline: none;
+}

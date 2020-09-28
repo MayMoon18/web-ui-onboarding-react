@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import welcomeImage from '../images/welcome-onBoarding-image.JPG'
+import welcomeImage from '../images/welcome-image.png'
 import './styles/Welcome.css'
 
 function Welcome({addName}) {
 	const [valueName, setValueName] = useState('');
 
 	const handleSubmit = (e) => {
-		// console.log('pruebaValue', valueName)
 		e.preventDefault();
 		if(!valueName)
 		return
@@ -31,7 +30,7 @@ function Welcome({addName}) {
 				<input 
 				className="button-save" 
 				type="submit" 
-				value="Submit"/>
+				value="SAVE"/>
 			</form>
 		</div>
 	);
