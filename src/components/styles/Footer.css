@@ -1,0 +1,26 @@
+.footer {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rem;
+  margin-top: 5rem;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: #84b62e;
+  border-radius: 10px;
+  border: 0;
+  width: 70px;
+  height: 30px;
+}
+
+button:hover {
+  color: #84b62e;
+  background-color: white;
+}
+
+button:focus {
+  outline: none;
+}

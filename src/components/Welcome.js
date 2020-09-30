@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
-import welcomeImage from '../images/welcome-image.png'
-import './styles/Welcome.css'
+import { useHistory } from "react-router-dom";
+
+import './styles/Welcome.css';
+
+import welcomeImage from '../images/welcome-image.png';
 
 function Welcome({addName}) {
 	const [valueName, setValueName] = useState('');
+	let history = useHistory();
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -11,6 +15,7 @@ function Welcome({addName}) {
 		return
 		addName(valueName);
 		setValueName('');
+		history.push("/imagine");
 	}
 
 	return (
