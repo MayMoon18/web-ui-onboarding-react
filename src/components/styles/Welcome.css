@@ -1,0 +1,46 @@
+.container {
+	background-color: black;
+	height: 100vmin;
+	justify-content: center;
+	text-align: center;
+}
+.title {
+	margin: 0px;
+	color: white;
+	text-align: center;
+	padding-top: 7%;
+	font-size: 50px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+.input-name {
+	border-radius: 5px;
+	border: 1px solid gray;
+	outline: none;
+	width: 200px;
+	height: 25px;
+	margin-right: 10px;
+	text-align: center;
+}
+.button-save {
+	color: white;
+	font-weight: bold;
+	background-color: #84b62e;
+	border-radius: 10px;
+	border: 0;
+	width: 70px;
+	height: 30px;
+}
+
+img {
+	height: 50%;
+	width: 50%;
+	margin: 3%;
+}
+
+input:hover {
+	color: #84b62e;
+	background-color: white;
+}
+input:focus {
+	outline: none;
+}
