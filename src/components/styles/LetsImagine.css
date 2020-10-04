@@ -17,12 +17,10 @@ p {
 	color:white;
 	text-align: center;
 	padding-top: 7%;
-	font-size: 30px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-	  'Lucida Sans';
-  }
+	font-size: 3vw;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans';
+}
 
 p:nth-child(2) {
   margin: 0px;
-  font-size: 40px;
 }

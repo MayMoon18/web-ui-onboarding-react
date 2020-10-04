@@ -3,17 +3,21 @@ import { useHistory } from 'react-router-dom';
 
 import './../styles/Footer.css';
 
-function Footer() {
+function Footer(props) {
   let history = useHistory();
 
-  const handleClick = () => {
-    history.push('/');
+  const handleClickBack = (url) => {
+    history.push(props.backUrl);
   };
+
+  const handleClickNext = (url) => {
+    history.push(props.nextUrl);
+  }
 
   return (
     <footer className='footer'>
-      <button onClick={handleClick}>Back</button>
-      <button>Next</button>
+      <button onClick={() => handleClickBack(props.backUrl)}>BACK</button>
+      <button onClick={() => handleClickNext(props.nextUrl)}>NEXT</button>
     </footer>
   );
 }
