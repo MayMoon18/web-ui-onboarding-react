@@ -1,9 +1,12 @@
-.career-path_container {
+.career-path_background {
 	background-color: white;
-	height: 80vmin;
+	height: 100vmin;
 	background-size: 100% 100%;
 	background-image: url(../../images/user-image.svg);
 	background-repeat: no-repeat;
+}
+
+.career-path_container {
 	padding-left: 50%;
 	padding-right: 20%;
 	display: flex;
@@ -11,7 +14,7 @@
 }
 
 .accordion-container {
-	margin-top: 10%;
+	margin-top: 40%;
 }
 
 .accordion-summary {
@@ -42,4 +45,5 @@ li {
 	border-bottom: 1px #ccc dotted;
 	list-style: none;
 	padding-bottom: 2%;
+	text-align: start;
 }
