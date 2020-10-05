@@ -9,12 +9,6 @@ import './styles/CareerPath.css'
 import Footer from '../components/shared/Footer'
 
 function CareerPath() {
-  const [expanded, setExpanded] = React.useState(false)
-
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false)
-  }
-
   return (
     <React.Fragment>
       <div className='career-path_container'>

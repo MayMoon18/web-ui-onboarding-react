@@ -6,18 +6,14 @@ import './../styles/Footer.css';
 function Footer(props) {
   let history = useHistory();
 
-  const handleClickBack = (url) => {
-    history.push(props.backUrl);
+  const handleClick = (url) => {
+    history.push(url);
   };
-
-  const handleClickNext = (url) => {
-    history.push(props.nextUrl);
-  }
 
   return (
     <footer className='footer'>
-      <button onClick={() => handleClickBack(props.backUrl)}>BACK</button>
-      <button onClick={() => handleClickNext(props.nextUrl)}>NEXT</button>
+      <button onClick={() => handleClick(props.backUrl)}>BACK</button>
+      <button onClick={() => handleClick(props.nextUrl)}>NEXT</button>
     </footer>
   );
 }
