@@ -67,7 +67,7 @@ function Triforce({ addedName }) {
           centered
         >
           <Tab label='Expertise' />
-          <Tab label='Sites' />
+          <Tab label='Site' />
           <Tab label='Project' />
         </Tabs>
       </Paper>
