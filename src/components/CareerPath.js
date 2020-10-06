@@ -1,12 +1,12 @@
-import React from 'react'
-import Accordion from '@material-ui/core/Accordion'
-import AccordionDetails from '@material-ui/core/AccordionDetails'
-import AccordionSummary from '@material-ui/core/AccordionSummary'
-import ExpandMore from '@material-ui/icons/ExpandMore'
+import React from 'react';
+import Accordion from '@material-ui/core/Accordion';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
+import ExpandMore from '@material-ui/icons/ExpandMore';
 
-import './styles/CareerPath.css'
+import './styles/CareerPath.css';
 
-import Footer from '../components/shared/Footer'
+import Footer from '../components/shared/Footer';
 
 function CareerPath() {
   return (
@@ -102,9 +102,9 @@ function CareerPath() {
           </Accordion>
         </div>
       </div>
-      <Footer backUrl="imagine" nextUrl="/"/>
+      <Footer backUrl='imagine' nextUrl='triforce' />
     </React.Fragment>
-  )
+  );
 }
 
 export default CareerPath;

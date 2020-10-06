@@ -6,6 +6,7 @@ import 'fontsource-roboto';
 import Welcome from './components/Welcome';
 import LetsImagine from './components/LetsImagine';
 import CareerPath from './components/CareerPath';
+import Triforce from './components/Triforce';
 
 function App() {
   const [valueName, setValueName] = useState('');
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path='/career-path'>
             <CareerPath />
+          </Route>
+          <Route path='/triforce'>
+            <Triforce addedName={valueName}/>
           </Route>
         </Switch>
       </Router>
