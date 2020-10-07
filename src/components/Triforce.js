@@ -64,11 +64,7 @@ function Triforce({ addedName }) {
         >
           <Tab label='Expertise' />
           <Tab label='Site' />
-<<<<<<< HEAD
           <Tab label='Business' />
-=======
-          <Tab label='Project' />
->>>>>>> 355b29956ba8a68fe019cf38de990d3b4937ba1f
         </Tabs>
       </Paper>
         <TabPanel value={value} index={0}>
@@ -80,11 +76,7 @@ function Triforce({ addedName }) {
         <TabPanel value={value} index={2}>
           <img src={projectOrAccountImage} alt='Project or Account' />
         </TabPanel>
-<<<<<<< HEAD
       <Footer backUrl='career-path' nextUrl='values' />
-=======
-      <Footer backUrl='career-path' nextUrl='/' />
->>>>>>> 355b29956ba8a68fe019cf38de990d3b4937ba1f
     </React.Fragment>
   );
 }
