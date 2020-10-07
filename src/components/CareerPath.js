@@ -109,8 +109,13 @@ function CareerPath() {
         </div>
       </div>
       <Footer backUrl='imagine' nextUrl='triforce' />
+<<<<<<< HEAD
     </div>
   )
+=======
+    </React.Fragment>
+  );
+>>>>>>> 355b29956ba8a68fe019cf38de990d3b4937ba1f
 }
 
 export default CareerPath

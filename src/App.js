@@ -33,9 +33,12 @@ function App() {
           <Route path='/triforce'>
             <Triforce addedName={valueName}/>
           </Route>
+<<<<<<< HEAD
           <Route path='/values'>
             <Values />
           </Route>
+=======
+>>>>>>> 355b29956ba8a68fe019cf38de990d3b4937ba1f
         </Switch>
       </Router>
     </div>
