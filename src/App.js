@@ -3,9 +3,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import 'fontsource-roboto';
+
 import Welcome from './components/Welcome';
 import LetsImagine from './components/LetsImagine';
 import CareerPath from './components/CareerPath';
+import Triforce from './components/Triforce';
+import Values from './components/Values';
 
 function App() {
   const [valueName, setValueName] = useState('');
@@ -26,6 +29,12 @@ function App() {
           </Route>
           <Route path='/career-path'>
             <CareerPath />
+          </Route>
+          <Route path='/triforce'>
+            <Triforce addedName={valueName}/>
+          </Route>
+          <Route path='/values'>
+            <Values />
           </Route>
         </Switch>
       </Router>

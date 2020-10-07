@@ -3,9 +3,9 @@ import React, { useState }from 'react'
 import { ExpandMore } from '@material-ui/icons';
 import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core';
 
-import './styles/CareerPath.css'
+import './styles/CareerPath.css';
 
-import Footer from '../components/shared/Footer'
+import Footer from '../components/shared/Footer';
 
 function CareerPath() {
   const [expandedPanel, setExpandedPanel] = useState(false);
@@ -108,7 +108,7 @@ function CareerPath() {
           </Accordion>
         </div>
       </div>
-      <Footer backUrl='imagine' nextUrl='/' />
+      <Footer backUrl='imagine' nextUrl='triforce' />
     </div>
   )
 }

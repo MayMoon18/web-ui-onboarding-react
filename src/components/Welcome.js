@@ -23,7 +23,7 @@ function Welcome({addName}) {
 		if(!valueName)
 		return
 		const hasNumber = /\d/;
-		const hasEspecialCharacter = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+		const hasEspecialCharacter = /[`!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?~]/;
 		
     if (valueName !== '') {
       if (hasNumber.test(valueName) || hasEspecialCharacter.test(valueName)) {
