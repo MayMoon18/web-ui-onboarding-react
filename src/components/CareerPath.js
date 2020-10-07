@@ -1,4 +1,4 @@
-import React, { useState }from 'react'
+import React, { useState }from 'react';
 
 import { ExpandMore } from '@material-ui/icons';
 import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core';

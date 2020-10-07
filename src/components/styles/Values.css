@@ -1,63 +1,65 @@
 .values_background {
-	background-color: white;
-	height: 100vmin;
-	background-size: 100% 100%;
-	background-image: url(../../images/values-background.svg);
-	background-repeat: no-repeat;
+  background-color: white;
+  height: 100vmin;
+  background-size: 100% 100%;
+  background-image: url(../../images/values-background.svg);
+  background-repeat: no-repeat;
 }
 
 .values_container {
-	margin-left: 50%;
-	padding-right: 20%;
-	display: flex;
-	flex-direction: row;
+  margin-left: 50%;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: row;
 }
 
 .values-accordion-container {
-	margin-top: 40%;
+  margin-top: 40%;
 }
 
 .values-accordion-summary {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-	font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans';
+  font-weight: bold;
 }
 
 #values-accordion-1 {
-	color: #5c0794;
+  color: #5c0794;
 }
 
 #values-accordion-1 strong {
-	color: #e9188f;
+  color: #e9188f;
 }
 
 #values-accordion-2 {
-	color: #5c0794;
+  color: #5c0794;
 }
 
 #values-accordion-2 strong {
-	color: #e9188f;
+  color: #e9188f;
 }
 
 #values-accordion-3 {
-	color: #5c0794;
+  color: #5c0794;
 }
 
 #values-accordion-3 strong {
-	color: #ED863A;
+  color: #ed863a;
 }
 
 #values-accordion-4 {
-	color: #5c0794;
+  color: #5c0794;
 }
 
 #values-accordion-4 strong {
-	color: #0aa488;
+  color: #0aa488;
 }
 
 li {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-	border-bottom: 1px #ccc dotted;
-	list-style: none;
-	padding-bottom: 2%;
-	text-align: start;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans';
+  border-bottom: 1px #ccc dotted;
+  list-style: none;
+  padding-bottom: 2%;
+  text-align: start;
 }
