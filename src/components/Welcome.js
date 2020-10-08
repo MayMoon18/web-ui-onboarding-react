@@ -20,7 +20,6 @@ function Welcome({ addName }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!valueName) return;
     const hasNumber = /\d/;
     const hasEspecialCharacter = /[`!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?~]/;
 
@@ -39,9 +38,9 @@ function Welcome({ addName }) {
   };
 
   return (
-    <div className='container'>
+    <div className='welcome-container'>
       <h1 className='title'>So excited to have you on board!</h1>
-      <img src={welcomeImage} alt='Welcome' className='welcome_imgage' />
+      <img src={welcomeImage} alt='Welcome' className='welcome-image' />
 
       <form onSubmit={handleSubmit}>
         <input

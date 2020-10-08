@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-button {
+.footer-button {
   color: white;
   font-weight: bold;
   background-color: #84b62e;
@@ -19,12 +19,12 @@ button {
   height: 30px;
 }
 
-button:hover {
+.footer-button:hover {
   color: #84b62e;
   background-color: white;
   border: 1px solid #84b62e;
 }
 
-button:focus {
+.footer-button:focus {
   outline: none;
 }

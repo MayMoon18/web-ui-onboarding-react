@@ -12,8 +12,18 @@ function Footer(props) {
 
   return (
     <footer className='footer'>
-      <button onClick={() => handleClick(props.backUrl)}>BACK</button>
-      <button onClick={() => handleClick(props.nextUrl)}>NEXT</button>
+      <button
+        className='footer-button'
+        onClick={() => handleClick(props.backUrl)}
+      >
+        BACK
+      </button>
+      <button
+        className='footer-button'
+        onClick={() => handleClick(props.nextUrl)}
+      >
+        NEXT
+      </button>
     </footer>
   );
 }

@@ -1,4 +1,4 @@
-.container {
+.welcome-container {
   background-color: black;
   height: 100vmin;
   justify-content: center;
@@ -35,7 +35,7 @@
   height: 30px;
 }
 
-.welcome_imgage {
+.welcome-image {
   height: 50%;
   width: 50%;
   margin: 3%;
