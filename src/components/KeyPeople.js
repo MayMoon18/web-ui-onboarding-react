@@ -1,10 +1,9 @@
 import React from 'react';
 
-import globantLogo from './../images/Globant-logo.png';
-
 import Footer from './shared/Footer';
 import Person from './Person';
 
+import globantLogo from './../images/Globant-logo.png';
 import imgDamianLazzarano from './../images/people/Damian_Lazzarano.png';
 import imgDavidCorrea from './../images/people/David_Correa.png';
 import imgGabrielMartinez from './../images/people/Gabriel_Martinez.png';
@@ -58,10 +57,10 @@ function KeyPeople() {
         <h1>UI Studio COPE</h1>
       </div>
       <div className='triforce_name_div'>
-        <p> Key People</p>
+        <p>Key People</p>
       </div>
       <Person people={people} />
-      <Footer backUrl='values' nextUrl='' />
+      <Footer backUrl='values' nextUrl='ready' />
     </React.Fragment>
   );
 }
