@@ -11,6 +11,7 @@ import Triforce from './components/Triforce';
 import Values from './components/Values';
 import KeyPeople from './components/KeyPeople';
 import Ready from './components/Ready';
+import Studios from './components/Studios';
 
 function App() {
   const [valueName, setValueName] = useState('');
@@ -43,6 +44,9 @@ function App() {
           </Route>
           <Route path='/ready'>
             <Ready />
+          </Route>
+          <Route path='/studios'>
+            <Studios />
           </Route>
         </Switch>
       </Router>
