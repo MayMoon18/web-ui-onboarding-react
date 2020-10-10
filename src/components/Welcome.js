@@ -11,11 +11,11 @@ function Welcome({ addName }) {
 
   const handleChange = (e) => {
     e.preventDefault();
-    if (e.target.value.length === 1) {
-      setValueName(e.target.value.toUpperCase());
-    } else {
-      setValueName(e.target.value);
-    }
+    setValueName(e.target.value);
+  };
+
+  const capitalizeName = (name) => {
+    return name.replace(/\b(\w)/g, (s) => s.toUpperCase());
   };
 
   const handleSubmit = (e) => {
@@ -28,7 +28,7 @@ function Welcome({ addName }) {
         window.alert('You have to write a real name');
         setValueName('');
       } else {
-        addName(valueName);
+        addName(capitalizeName(valueName));
         setValueName('');
         history.push('/imagine');
       }
