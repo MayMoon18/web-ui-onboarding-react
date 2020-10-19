@@ -1,0 +1,49 @@
+.career-path_background {
+	background-color: white;
+	height: 100vmin;
+	background-size: 100% 100%;
+	background-image: url(../../images/user-image.svg);
+	background-repeat: no-repeat;
+}
+
+.career-path_container {
+	padding-left: 50%;
+	padding-right: 20%;
+	display: flex;
+	flex-direction: row;
+}
+
+.accordion-container {
+	margin-top: 40%;
+}
+
+.accordion-summary {
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	font-weight: bold;
+}
+
+#accordion-1 {
+	color: #ed863a;
+}
+
+#accordion-2 {
+	color: #5c0794;
+	/* color: #941342; */
+}
+
+#accordion-3 {
+	color: #4475d9;
+}
+
+#accordion-4 {
+	color: #42b8a3;
+}
+
+li {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	border-bottom: 1px #ccc dotted;
+	list-style: none;
+	padding-bottom: 2%;
+	text-align: start;
+}

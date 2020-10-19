@@ -1,9 +1,12 @@
 .footer {
   background-color: transparent;
+  padding-bottom: 0;
+  margin: 5rem 0;
+  position: absolute;
+  bottom: 0;
   display: flex;
-  justify-content: space-between;
-  padding: 0 10rem;
-  margin-top: 5rem;
+  justify-content: space-around;
+  width: 100%;
 }
 
 button {
@@ -19,6 +22,7 @@ button {
 button:hover {
   color: #84b62e;
   background-color: white;
+  border: 1px solid #84b62e;
 }
 
 button:focus {
