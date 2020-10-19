@@ -9,6 +9,7 @@ import LetsImagine from './components/LetsImagine';
 import CareerPath from './components/CareerPath';
 import Triforce from './components/Triforce';
 import Values from './components/Values';
+import KeyPeople from './components/KeyPeople';
 
 function App() {
   const [valueName, setValueName] = useState('');
@@ -31,10 +32,13 @@ function App() {
             <CareerPath />
           </Route>
           <Route path='/triforce'>
-            <Triforce addedName={valueName}/>
+            <Triforce addedName={valueName} />
           </Route>
           <Route path='/values'>
             <Values />
+          </Route>
+          <Route path='/key-people'>
+            <KeyPeople />
           </Route>
         </Switch>
       </Router>

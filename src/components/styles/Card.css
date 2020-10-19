@@ -1,0 +1,44 @@
+.card-text {
+  margin: 0;
+  padding-top: 1vw;
+  color: #5c96be;
+  font-size: 1.7vw;
+  font-weight: 600;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  line-height: 1;
+  text-align: center;
+}
+
+.card-header-title {
+  margin-top: 8%;
+  margin-bottom: 0;
+  color: #5c96be;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.card-link {
+  margin: 0;
+  text-decoration: none;
+  color: #5d0895;
+  font-size: 1vw;
+}
+
+.card-container {
+  width: 15vw;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+.card-image {
+  border-radius: 50%;
+  border: 4px #620895 solid;
+  box-shadow: 0px 0px 30px 0px #5c96be;
+  flex-shrink: 0;
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+.cards-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 8vh;
+}
+
+.row {
+  justify-content: space-around;
+}
