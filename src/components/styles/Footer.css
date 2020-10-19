@@ -1,9 +1,12 @@
 .footer {
   background-color: transparent;
+  padding-bottom: 0;
+  margin: 5rem 0;
+  position: absolute;
+  bottom: 0;
   display: flex;
-  justify-content: space-between;
-  padding: 0 10rem;
-  margin: 4rem 0;
+  justify-content: space-around;
+  width: 100%;
 }
 
 button {
