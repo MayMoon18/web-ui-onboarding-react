@@ -10,6 +10,7 @@ import CareerPath from './components/CareerPath';
 import Triforce from './components/Triforce';
 import Values from './components/Values';
 import KeyPeople from './components/KeyPeople';
+import Ready from './components/Ready';
 
 function App() {
   const [valueName, setValueName] = useState('');
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path='/key-people'>
             <KeyPeople />
+          </Route>
+          <Route path='/ready'>
+            <Ready />
           </Route>
         </Switch>
       </Router>

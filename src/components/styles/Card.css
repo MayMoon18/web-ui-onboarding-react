@@ -25,6 +25,10 @@
   font-size: 1vw;
 }
 
+.card-link:hover {
+  color: #bfd732;
+}
+
 .card-container {
   width: 15vw;
   padding: 0;
@@ -40,5 +44,6 @@
   border: 4px #620895 solid;
   box-shadow: 0px 0px 30px 0px #5c96be;
   flex-shrink: 0;
-  width: 100%;
+  width: 8vw;
+  align-self: center;
 }

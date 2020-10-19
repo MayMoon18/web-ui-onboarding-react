@@ -23,32 +23,16 @@
   font-weight: bold;
 }
 
-#values-accordion-1 {
+#values-accordion-1, #values-accordion-2, #values-accordion-3, #values-accordion-4 {
   color: #5c0794;
 }
 
-#values-accordion-1 strong {
+#values-accordion-1 strong, #values-accordion-2 strong {
   color: #e9188f;
-}
-
-#values-accordion-2 {
-  color: #5c0794;
-}
-
-#values-accordion-2 strong {
-  color: #e9188f;
-}
-
-#values-accordion-3 {
-  color: #5c0794;
 }
 
 #values-accordion-3 strong {
   color: #ed863a;
-}
-
-#values-accordion-4 {
-  color: #5c0794;
 }
 
 #values-accordion-4 strong {
