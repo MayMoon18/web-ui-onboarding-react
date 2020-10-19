@@ -1,10 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import { Paper, Tabs, Tab, Typography, Box } from '@material-ui/core'
 
 import './styles/Triforce.css';
 import copeImage from './../images/cope_image.png';
@@ -68,7 +64,7 @@ function Triforce({ addedName }) {
         >
           <Tab label='Expertise' />
           <Tab label='Site' />
-          <Tab label='Project' />
+          <Tab label='Business' />
         </Tabs>
       </Paper>
         <TabPanel value={value} index={0}>
@@ -80,7 +76,7 @@ function Triforce({ addedName }) {
         <TabPanel value={value} index={2}>
           <img src={projectOrAccountImage} alt='Project or Account' />
         </TabPanel>
-      <Footer backUrl='career-path' nextUrl='/' />
+      <Footer backUrl='career-path' nextUrl='values' />
     </React.Fragment>
   );
 }
