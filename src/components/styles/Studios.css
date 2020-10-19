@@ -3,21 +3,21 @@
 }
 
 .container {
-  padding: 0;
-  padding-left: 13vw;
+  margin-left: 20%;
 }
 
 .h2-responsive {
-  color: #84b62e;
-  font-weight: 500;
-  font-size: 4vh;
+  color: #bfd732;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+	font-size: 2vw;
 }
 
 .carousel_title {
   padding: 1vw;
-  color: #84b62e;
+  color: #bfd732;
   text-align: left;
-  padding-left: 10vw;
+  padding-left: 21vw;
 }
 
 .carousel_title h1 {
