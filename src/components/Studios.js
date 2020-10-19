@@ -40,7 +40,7 @@ function Studios() {
                   src={strategic}
                   alt='strategic'
                 />
-                <MDBMask overlay='black-light' />
+                <MDBMask overlay='black-slight' />
               </MDBView>
               <MDBCarouselCaption>
                 <h2 className='h2-responsive'>STRATEGIC</h2>
@@ -53,7 +53,7 @@ function Studios() {
                   src={specialty}
                   alt='Specialty'
                 />
-                <MDBMask overlay='black-strong' />
+                <MDBMask overlay='black-slight' />
               </MDBView>
               <MDBCarouselCaption>
                 <h2 className='h2-responsive'>SPECIALTY</h2>
