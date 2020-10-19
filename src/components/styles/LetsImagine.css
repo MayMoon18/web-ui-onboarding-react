@@ -13,13 +13,14 @@
 }
 
 p {
-  margin: 0px 70px;
+  margin: 0px 50px;
   color: white;
   text-align: center;
   padding-top: 6%;
   font-size: 3vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans';
+  line-height: 8vh;
 }
 
 p:nth-child(2) {

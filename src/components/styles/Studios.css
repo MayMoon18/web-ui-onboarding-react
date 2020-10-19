@@ -1,0 +1,31 @@
+.carousel {
+  width: 83%;
+}
+
+.container {
+  padding: 0;
+  padding-left: 13vw;
+}
+
+.h2-responsive {
+  color: #84b62e;
+  font-weight: 500;
+  font-size: 4vh;
+}
+
+.carousel_title {
+  padding: 1vw;
+  color: #84b62e;
+  text-align: left;
+  padding-left: 10vw;
+}
+
+.carousel_title h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 6vh;
+}
+
+.carousel .carousel-indicators li {
+  height: 50%;
+}

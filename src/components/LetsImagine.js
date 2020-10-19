@@ -18,7 +18,7 @@ function LetsImagine({ addedName }) {
       <p>
         First we need to create our <strong>fictional character!</strong>
       </p>
-      <Footer backUrl='/' nextUrl='career-path' />
+      <Footer backUrl='/' nextUrl='studios' />
     </div>
   );
 }

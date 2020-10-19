@@ -10,22 +10,34 @@ function Footer(props) {
     history.push(url);
   };
 
-  return (
-    <footer className='footer'>
-      <button
-        className='footer-button'
-        onClick={() => handleClick(props.backUrl)}
-      >
-        BACK
-      </button>
-      <button
-        className='footer-button'
-        onClick={() => handleClick(props.nextUrl)}
-      >
-        NEXT
-      </button>
-    </footer>
+  const back = (
+    <button
+      className='footer-button'
+      onClick={() => handleClick(props.backUrl)}
+    >
+      BACK
+    </button>
   );
+
+  const next = (
+    <button
+      className='footer-button'
+      onClick={() => handleClick(props.nextUrl)}
+    >
+      NEXT
+    </button>
+  );
+
+  if (props.backUrl === 'key-people') {
+    return <footer className='footer'>{back}</footer>;
+  } else {
+    return (
+      <footer className='footer'>
+        {back}
+        {next}
+      </footer>
+    );
+  }
 }
 
 export default Footer;
