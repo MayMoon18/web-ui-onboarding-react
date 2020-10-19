@@ -1,11 +1,15 @@
-import React, { useState }from 'react'
+import React, { useState } from 'react';
 
 import { ExpandMore } from '@material-ui/icons';
-import { Accordion, AccordionSummary, AccordionDetails } from '@material-ui/core';
+import {
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+} from '@material-ui/core';
 
-import './styles/CareerPath.css'
+import './styles/CareerPath.css';
 
-import Footer from '../components/shared/Footer'
+import Footer from '../components/shared/Footer';
 
 function CareerPath() {
   const [expandedPanel, setExpandedPanel] = useState(false);
@@ -19,7 +23,11 @@ function CareerPath() {
     <div className='career-path_background'>
       <div className='career-path_container'>
         <div className='accordion-container'>
-          <Accordion id='accordion-1' expanded={expandedPanel === 'panel1'} onChange={handleAccordionChange('panel1')}>
+          <Accordion
+            id='accordion-1'
+            expanded={expandedPanel === 'panel1'}
+            onChange={handleAccordionChange('panel1')}
+          >
             <AccordionSummary
               expandIcon={<ExpandMore />}
               className='accordion-summary'
@@ -33,7 +41,11 @@ function CareerPath() {
               </ul>
             </AccordionDetails>
           </Accordion>
-          <Accordion id='accordion-2' expanded={expandedPanel === 'panel2'} onChange={handleAccordionChange('panel2')}>
+          <Accordion
+            id='accordion-2'
+            expanded={expandedPanel === 'panel2'}
+            onChange={handleAccordionChange('panel2')}
+          >
             <AccordionSummary
               expandIcon={<ExpandMore />}
               className='accordion-summary'
@@ -69,7 +81,11 @@ function CareerPath() {
               </div>
             </AccordionDetails>
           </Accordion>
-          <Accordion id='accordion-3' expanded={expandedPanel === 'panel3'} onChange={handleAccordionChange('panel3')}>
+          <Accordion
+            id='accordion-3'
+            expanded={expandedPanel === 'panel3'}
+            onChange={handleAccordionChange('panel3')}
+          >
             <AccordionSummary
               expandIcon={<ExpandMore />}
               className='accordion-summary'
@@ -90,7 +106,11 @@ function CareerPath() {
               </ul>
             </AccordionDetails>
           </Accordion>
-          <Accordion id='accordion-4' expanded={expandedPanel === 'panel4'} onChange={handleAccordionChange('panel4')}>
+          <Accordion
+            id='accordion-4'
+            expanded={expandedPanel === 'panel4'}
+            onChange={handleAccordionChange('panel4')}
+          >
             <AccordionSummary
               expandIcon={<ExpandMore />}
               className='accordion-summary'
@@ -108,9 +128,9 @@ function CareerPath() {
           </Accordion>
         </div>
       </div>
-      <Footer backUrl='imagine' nextUrl='/' />
+      <Footer backUrl='imagine' nextUrl='triforce' />
     </div>
-  )
+  );
 }
 
-export default CareerPath
+export default CareerPath;

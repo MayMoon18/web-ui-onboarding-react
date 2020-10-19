@@ -1,0 +1,32 @@
+.triforce_letter_div {
+  background-color: #84b62e;
+  padding: 2vw;
+  color: white;
+  text-align: left;
+  padding-left: 10vw;
+}
+
+.triforce_letter_div p {
+  padding: 0;
+  margin:0;
+  font-size: 2vw;
+  text-align: left;
+}
+
+.triforce_letter_div h1{
+  margin: 0;
+}
+
+.triforce_name_div {
+    background-color: #5c96be;
+    color: white;
+}
+
+.triforce_name_div p {
+  padding: 1vh;
+  font-size: 2vw;
+}
+
+.MuiTypography-root{
+  padding: 0;
+}
